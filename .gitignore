@@ -1,0 +1,15 @@
+_pgbackup
+_pginfo
+pgia
+pinegrow.json
+projectdb.pgml
+tailwind_theme
+.DS_Store
+/.idea
+modules.xml
+php.xml
+sonarlint
+vcs.xml
+workspace.xml
+www.social.fryntiz.dev.iml
+node_modules

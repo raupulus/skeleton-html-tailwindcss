@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Montserrat&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+/*
+@import url('./fonts/Asap-Medium.ttf');
+@import url('./fonts/Montserrat-Regular.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Merriweather:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+
+@layer base {
+    html {
+        font-family: Merriweather, system-ui, sans-serif;
+    }
+}
+*/
+
+@layer components {
+    .icon-card {
+        @apply inline-block p-2 mb-0 rounded sm:mb-0 md:mb-2 w-14 sm:p-0 md:p-2;
+    }
+}
+
+/*
+TODO: Extraer al tema
+*/
+
+body {
+    font-family: 'Montserrat', serif;
+}
+
+.text-container {
+    font-family: 'Asap', sans-serif;
+    font-size: 2rem;
+}
+
+.text-color-blue {
+    color: #0056b3;
+}
+
+.background-gray {
+    background-color: #1f2836;
+}
+
+.bg-card-profesional {
+    background-color: #1f2836;
+}
+
+.bg-card-social {
+    background-color: #0056b3;
+}
+
+.bg-card-video {
+    background-color: #b50000;
+}
+
+.bg-card-webs {
+    background-color: #f6993f;;
+}
+
+.bg-card-rss {
+    background-color: rgb(22, 163, 74);
+}
