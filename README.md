@@ -1,6 +1,10 @@
-# www.social.fryntiz.dev
+# Skeleton html 5 con tailwindcss
 
-Este es un sitio web personal de Raúl Caro Pastorino dónde muestro los enlaces a mis Redes Sociales.
+Este repositorio tiene mi template para comenzar proyectos basados en tailwindcss utilizando solamente html y javascript puro.
+
+La configuración de tailwind para desarrollo está preparada generando la salida de estilos procesados con PostCSS dentro del directorio "dist"
+
+He preparado en el archivo **package.json** unos comandos npm que nos permiten regenerar el css en tiempo real mientras desarrollamos y para obtener la versión finalizada minificada una vez terminamos.
 
 Puedes utilizarlo libremente con la misma licencia del proyecto GPLv3.
 
